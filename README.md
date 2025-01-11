@@ -1,6 +1,6 @@
 # WebSage
 
-WebSage is a powerful Retrieval-Augmented Generation (RAG) system that combines advanced web scraping with generative AI to answer questions from any given website.
+WebSage is a Retrieval-Augmented Generation (RAG) system that combines web scraping with generative AI to answer questions from any given website.
 
 This repository implements a Retrieval-Augmented Generation (RAG) system using Hugging Face models and LangChain. The system combines document retrieval with generative AI to answer questions based on content scraped from a given website URL.
 
@@ -53,9 +53,7 @@ Use your Hugging Face token for model access:
 
 ## File Structure
 - `notebooks/baymax_RAG.ipynb`: Source code for the RAG system implementation in Jupyter Notebook.
-- `docs/GenAI_RAG_task - Colab.pdf`: A sample run of the RAG system exported and saved as a PDF document.
-- `README.md`: Documentation and instructions.
-- `notebooks/baymax_RAG.ipynb`: Source code for the RAG system implementation in Jupyter Notebook.
+- `docs/baymax-RAG.ipynb - Colab.pdf`: A sample run of the RAG system exported and saved as a PDF document.
 - `README.md`: Documentation and instructions.
 
 ## Contributing
