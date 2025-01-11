@@ -4,6 +4,9 @@ WebSage is a Retrieval-Augmented Generation (RAG) system that combines web scrap
 
 This repository implements a Retrieval-Augmented Generation (RAG) system using Hugging Face models and LangChain. The system combines document retrieval with generative AI to answer questions based on content scraped from a given website URL.
 
+## Sample Run
+A sample screen recording for the output can be found [here]( https://www.loom.com/share/2f1b49ed515f489ab201b9c14e64c6a8?sid=c96ff6ce-43a6-41c6-8e9a-28856df5fc6b).
+
 ## Features
 - **LLM Used**: The LLM used for RAG in this repository is available at [Baymax-Gemma-2-9B GitHub Repository](https://github.com/samarth1029/baymax-gemma-2-9B) and on [Hugging Face](https://huggingface.co/samarth1029/Gemma-2-2b-baymax).
 - **Web Scraping**: Extract content from a given website.
@@ -20,6 +23,9 @@ This repository implements a Retrieval-Augmented Generation (RAG) system using H
   ```bash
   pip install requests beautifulsoup4 langchain transformers huggingface_hub faiss-cpu ipywidgets
   ```
+- Access to these repositories are to be raised:
+  - [samarth1029/Gemma-2-2b-baymax](https://huggingface.co/samarth1029/Gemma-2-2b-baymax)
+  - [google/gemma-2-2b-it](https://huggingface.co/google/gemma-2-2b-it)
 
 ### Clone the Repository
 ```bash
