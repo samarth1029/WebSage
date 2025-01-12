@@ -56,9 +56,12 @@ Use your Hugging Face token for model access:
   ```
   Answer: The website discusses examples and best practices for web development.
   ```
+  ![Sample](https://raw.githubusercontent.com/samarth1029/WebSage/main/docs/sample.jpg)
+
 
 ## File Structure
-- `notebooks/baymax_RAG.ipynb`: Source code for the RAG system implementation in Jupyter Notebook.
+- `notebooks/Fargo_RAG.ipynb`: Source code for the RAG system implementation in Jupyter Notebook.
+- `notebooks/Fargo_finetune.ipynb`: Source code for PEFT on gemma-2b base model on financial dataset
 - `docs/baymax-RAG.ipynb - Colab.pdf`: A sample run of the RAG system exported and saved as a PDF document.
 - `README.md`: Documentation and instructions.
 
