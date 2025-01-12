@@ -8,11 +8,11 @@ This repository implements a Retrieval-Augmented Generation (RAG) system using H
 A sample screen recording for the output can be found [here]( https://www.loom.com/share/2f1b49ed515f489ab201b9c14e64c6a8?sid=c96ff6ce-43a6-41c6-8e9a-28856df5fc6b).
 
 ## Features
-- **LLM Used**: The LLM used for RAG in this repository is available at [Baymax-Gemma-2-9B GitHub Repository](https://github.com/samarth1029/baymax-gemma-2-9B) and on [Hugging Face](https://huggingface.co/samarth1029/Gemma-2-2b-baymax).
+- **LLM Used**: The LLM used for RAG in this repository was fine-tuned using a specialized [Banking Dataset](https://huggingface.co/datasets/AmjadKha/BankingDataset). The finetuning process is documented in detail at [Gemma-2b-fargo-finetune](https://github.com/samarth1029/WebSage/blob/main/notebooks/Fargo_Finetune.ipynb). The resulting model is publicly available on [Hugging Face](https://huggingface.co/shriasannuthi/gemma-2b-fargo).
 - **Web Scraping**: Extract content from a given website.
 - **Chunk Splitting**: Split large text into manageable chunks for efficient processing.
 - **FAISS Indexing**: Use FAISS for efficient similarity search and retrieval.
-- **Generative AI**: Integrate Hugging Face models like `samarth1029/Gemma-2-2b-baymax` for question answering.
+- **Generative AI**: Integrate Hugging Face models like `shriasannuthi/gemma-2b-fargo` for question answering.
 - **Interactive UI**: Use widgets for secure Hugging Face login, URL input, and question submission.
 
 ## Setup
@@ -24,7 +24,7 @@ A sample screen recording for the output can be found [here]( https://www.loom.c
   pip install requests beautifulsoup4 langchain transformers huggingface_hub faiss-cpu ipywidgets
   ```
 - Access to these repositories are to be raised:
-  - [samarth1029/Gemma-2-2b-baymax](https://huggingface.co/samarth1029/Gemma-2-2b-baymax)
+  - [shriasannuthi/gemma-2b-fargo](https://huggingface.co/shriasannuthi/gemma-2b-fargo)
   - [google/gemma-2-2b-it](https://huggingface.co/google/gemma-2-2b-it)
 
 ### Clone the Repository
