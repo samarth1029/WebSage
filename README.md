@@ -1,19 +1,15 @@
-# WebSage
-
-WebSage is a Retrieval-Augmented Generation (RAG) system that combines web scraping with generative AI to answer questions from any given website.
-
-This repository implements a Retrieval-Augmented Generation (RAG) system using Hugging Face models and LangChain. The system combines document retrieval with generative AI to answer questions based on content scraped from a given website URL.
+# Web Sage - RAG-based Question Answering with Voice Input
+Web Sage is a Retrieval-Augmented Generation (RAG) system that answers user queries based on content scraped from a provided URL. The system supports text and voice input, processes the input using a large language model (LLM), and provides both text and audio responses using PyTorch-based text-to-speech (TTS).
 
 ## Sample Run
 A sample screen recording for the output can be found [here]( https://www.loom.com/share/2f1b49ed515f489ab201b9c14e64c6a8?sid=c96ff6ce-43a6-41c6-8e9a-28856df5fc6b).
 
 ## Features
-- **LLM Used**: The LLM used for RAG in this repository was fine-tuned using a specialized [Banking Dataset](https://huggingface.co/datasets/AmjadKha/BankingDataset). The finetuning process is documented in detail at [Gemma-2b-fargo-finetune](https://github.com/samarth1029/WebSage/blob/main/notebooks/Fargo_Finetune.ipynb). The resulting model is publicly available on [Hugging Face](https://huggingface.co/shriasannuthi/gemma-2b-fargo).
-- **Web Scraping**: Extract content from a given website.
-- **Chunk Splitting**: Split large text into manageable chunks for efficient processing.
-- **FAISS Indexing**: Use FAISS for efficient similarity search and retrieval.
-- **Generative AI**: Integrate Hugging Face models like `shriasannuthi/gemma-2b-fargo` for question answering.
-- **Interactive UI**: Use widgets for secure Hugging Face login, URL input, and question submission.
+- **Web Scraping:** Automatically extracts text content from a given URL.
+- **Voice Input:** Allows users to provide queries using an uploaded audio file.
+- **Retrieval-Augmented Generation (RAG):** Uses FAISS for efficient document retrieval and a transformer-based LLM for response generation.
+- **Text-to-Speech (TTS):** Converts the generated text answer to an audio output.
+- **Interactive UI:** Provides a user-friendly interface using `ipywidgets` in Jupyter/Colab notebooks.
 
 ## Setup
 
