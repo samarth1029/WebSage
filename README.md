@@ -56,13 +56,13 @@ Use your Hugging Face token for model access:
   ```
   Answer: The website discusses examples and best practices for web development.
   ```
-  ![Sample](https://raw.githubusercontent.com/samarth1029/WebSage/main/docs/sample.jpg)
+  ![Sample](https://raw.githubusercontent.com/samarth1029/WebSage/main/results/sample.jpg)
 
 
 ## File Structure
-- `notebooks/Fargo_RAG.ipynb`: Source code for the RAG system implementation in Jupyter Notebook.
+- `notebooks/Fargo_RAG_Multimodal.ipynb`: Source code for the Multimodal RAG system implementation that takes in voice input and generates audio response in Jupyter Notebook.
 - `notebooks/Fargo_finetune.ipynb`: Source code for PEFT on gemma-2b base model on financial dataset
-- `docs/Fargo_RAG.ipynb - Colab.pdf`: A sample run of the RAG system exported and saved as a PDF document.
+- `results/Fargo_RAG_Multimodal.ipynb - Colab.pdf`: A sample run of the Multimodal RAG system exported and saved as a PDF document.
 - `README.md`: Documentation and instructions.
 
 ## Contributing
