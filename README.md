@@ -2,7 +2,8 @@
 Web Sage is a Retrieval-Augmented Generation (RAG) system that answers user queries based on content scraped from a provided URL. The system supports text and voice input, processes the input using a large language model (LLM), and provides both text and audio responses using PyTorch-based text-to-speech (TTS).
 
 ## Sample Run
-A sample screen recording for the output can be found [here]( https://www.loom.com/share/2f1b49ed515f489ab201b9c14e64c6a8?sid=c96ff6ce-43a6-41c6-8e9a-28856df5fc6b).
+- A sample screen recording for the text-to-text output can be found [here]( https://www.loom.com/share/2f1b49ed515f489ab201b9c14e64c6a8?sid=c96ff6ce-43a6-41c6-8e9a-28856df5fc6b).
+- A sample screen recording for the speech-to-speech output can be found [here]( https://www.loom.com/share/0a1fc68e81574f50a88185d6936fb83b?sid=6a4e4d79-67ad-466c-b316-5ff01cb1c714).
 
 ## Features
 - **Web Scraping:** Automatically extracts text content from a given URL.
